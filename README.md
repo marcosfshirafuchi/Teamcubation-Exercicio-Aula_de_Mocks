@@ -12,6 +12,27 @@ Objetivo:<br>
 
 Pré-requisito:<br>
 - Ter o JUnit e o Mockito nas dependências do projeto
+- Usei o JDK 21 e as versões do Junit e Mockito para funcionar a classe ChecklistTest no POM.XML do Maven.
+- Versão do Junit e Mockito que usei no Maven:
+
+```
+<dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.11.0-M2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>5.12.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+```
+  
 
 Preparo das classes:
 - Crie uma classe CaixaEletronico que tenha uma dependência de uma classe Banco
